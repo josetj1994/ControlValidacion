@@ -1,0 +1,14 @@
+﻿<Window x:Class="ControlValidacion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlValidacion"
+        xmlns:ControlValidacion="clr-namespace:ControlValidacion.componentes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ControlValidacion:ValidacionPersonalizada x:Name="ValicacionPrueba" tipo="Telefono" Margin="0,0,10,96"></ControlValidacion:ValidacionPersonalizada>
+        <Button Content="Comprobar" HorizontalAlignment="Left" Margin="342,328,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>
